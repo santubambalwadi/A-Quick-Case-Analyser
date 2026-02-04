@@ -1,0 +1,1117 @@
+[
+  {
+    "name": "Adv. Ramesh Patil",
+    "city": "Bagalkot",
+    "specialization": "Criminal",
+    "email": "ramesh.patil@bagalkotlaw.in",
+    "phone": "8100000101"
+  },
+  {
+    "name": "Adv. Savitha Rao",
+    "city": "Bagalkot",
+    "specialization": "Family",
+    "email": "savitha.rao@bagalkotlaw.in",
+    "phone": "8100000102"
+  },
+  {
+    "name": "Adv. Nikhil Desai",
+    "city": "Bagalkot",
+    "specialization": "Property",
+    "email": "nikhil.desai@bagalkotlaw.in",
+    "phone": "8100000103"
+  },
+  {
+    "name": "Adv. Prerana Kulkarni",
+    "city": "Bagalkot",
+    "specialization": "Civil",
+    "email": "prerana.k@bagalkotlaw.in",
+    "phone": "8100000104"
+  },
+  {
+    "name": "Adv. Manoj Shetty",
+    "city": "Bagalkot",
+    "specialization": "Consumer",
+    "email": "manoj.s@bagalkotlaw.in",
+    "phone": "8100000105"
+  },
+
+  {
+    "name": "Adv. Anita Reddy",
+    "city": "Ballari",
+    "specialization": "Criminal",
+    "email": "anita.reddy@ballarilaw.in",
+    "phone": "8100000201"
+  },
+  {
+    "name": "Adv. Karthik Sharma",
+    "city": "Ballari",
+    "specialization": "Family",
+    "email": "karthik.sharma@ballarilaw.in",
+    "phone": "8100000202"
+  },
+  {
+    "name": "Adv. Leela Gowda",
+    "city": "Ballari",
+    "specialization": "Property",
+    "email": "leela.gowda@ballarilaw.in",
+    "phone": "8100000203"
+  },
+  {
+    "name": "Adv. Suresh Naik",
+    "city": "Ballari",
+    "specialization": "Civil",
+    "email": "suresh.naik@ballarilaw.in",
+    "phone": "8100000204"
+  },
+  {
+    "name": "Adv. Meera Bhat",
+    "city": "Ballari",
+    "specialization": "Consumer",
+    "email": "meera.bhat@ballarilaw.in",
+    "phone": "8100000205"
+  },
+
+  {
+    "name": "Adv. Arjun Kulkarni",
+    "city": "Belagavi",
+    "specialization": "Criminal",
+    "email": "arjun.k@belagavilaw.in",
+    "phone": "8100000301"
+  },
+  {
+    "name": "Adv. Nisha Patil",
+    "city": "Belagavi",
+    "specialization": "Family",
+    "email": "nisha.patil@belagavilaw.in",
+    "phone": "8100000302"
+  },
+  {
+    "name": "Adv. Vijay Rao",
+    "city": "Belagavi",
+    "specialization": "Property",
+    "email": "vijay.rao@belagavilaw.in",
+    "phone": "8100000303"
+  },
+  {
+    "name": "Adv. Rashmi Hegde",
+    "city": "Belagavi",
+    "specialization": "Civil",
+    "email": "rashmi.hegde@belagavilaw.in",
+    "phone": "8100000304"
+  },
+  {
+    "name": "Adv. Pradeep Kulkarni",
+    "city": "Belagavi",
+    "specialization": "Consumer",
+    "email": "pradeep.k@belagavilaw.in",
+    "phone": "8100000305"
+  },
+
+  {
+    "name": "Adv. S. N. Rao",
+    "city": "Bengaluru Urban",
+    "specialization": "Criminal",
+    "email": "sn.rao@bengalurulaw.in",
+    "phone": "8100000401"
+  },
+  {
+    "name": "Adv. Megha Krishnan",
+    "city": "Bengaluru Urban",
+    "specialization": "Family",
+    "email": "megha.k@bengalurulaw.in",
+    "phone": "8100000402"
+  },
+  {
+    "name": "Adv. Rohit Menon",
+    "city": "Bengaluru Urban",
+    "specialization": "Property",
+    "email": "rohit.m@bengalurulaw.in",
+    "phone": "8100000403"
+  },
+  {
+    "name": "Adv. Divya Sharma",
+    "city": "Bengaluru Urban",
+    "specialization": "Civil",
+    "email": "divya.sharma@bengalurulaw.in",
+    "phone": "8100000404"
+  },
+  {
+    "name": "Adv. Kunal Iyer",
+    "city": "Bengaluru Urban",
+    "specialization": "Consumer",
+    "email": "kunal.iyer@bengalurulaw.in",
+    "phone": "8100000405"
+  },
+
+  {
+    "name": "Adv. Hema Gowda",
+    "city": "Bengaluru Rural",
+    "specialization": "Criminal",
+    "email": "hema.g@bengalururural.in",
+    "phone": "8100000501"
+  },
+  {
+    "name": "Adv. Raghavendra",
+    "city": "Bengaluru Rural",
+    "specialization": "Family",
+    "email": "raghav@bengalururural.in",
+    "phone": "8100000502"
+  },
+  {
+    "name": "Adv. Latha N",
+    "city": "Bengaluru Rural",
+    "specialization": "Property",
+    "email": "latha.n@bengalururural.in",
+    "phone": "8100000503"
+  },
+  {
+    "name": "Adv. Vikas Sharma",
+    "city": "Bengaluru Rural",
+    "specialization": "Civil",
+    "email": "vikas.s@bengalururural.in",
+    "phone": "8100000504"
+  },
+  {
+    "name": "Adv. Sunita R",
+    "city": "Bengaluru Rural",
+    "specialization": "Consumer",
+    "email": "sunita.r@bengalururural.in",
+    "phone": "8100000505"
+  },
+
+  {
+    "name": "Adv. Farhan Khan",
+    "city": "Bidar",
+    "specialization": "Criminal",
+    "email": "farhan.k@bidarlaw.in",
+    "phone": "8100000601"
+  },
+  {
+    "name": "Adv. Anjali Verma",
+    "city": "Bidar",
+    "specialization": "Family",
+    "email": "anjali.v@bidarlaw.in",
+    "phone": "8100000602"
+  },
+  {
+    "name": "Adv. Ramesh K",
+    "city": "Bidar",
+    "specialization": "Property",
+    "email": "ramesh.k@bidarlaw.in",
+    "phone": "8100000603"
+  },
+  {
+    "name": "Adv. Pooja Naik",
+    "city": "Bidar",
+    "specialization": "Civil",
+    "email": "pooja.naik@bidarlaw.in",
+    "phone": "8100000604"
+  },
+  {
+    "name": "Adv. Dinesh Patil",
+    "city": "Bidar",
+    "specialization": "Consumer",
+    "email": "dinesh.p@bidarlaw.in",
+    "phone": "8100000605"
+  },
+
+  {
+    "name": "Adv. K. M. Rao",
+    "city": "Chamarajanagar",
+    "specialization": "Criminal",
+    "email": "km.rao@chamaralaw.in",
+    "phone": "8100000701"
+  },
+  {
+    "name": "Adv. Shweta N",
+    "city": "Chamarajanagar",
+    "specialization": "Family",
+    "email": "shweta.n@chamaralaw.in",
+    "phone": "8100000702"
+  },
+  {
+    "name": "Adv. B. R. Kiran",
+    "city": "Chamarajanagar",
+    "specialization": "Property",
+    "email": "br.kiran@chamaralaw.in",
+    "phone": "8100000703"
+  },
+  {
+    "name": "Adv. Lalitha S",
+    "city": "Chamarajanagar",
+    "specialization": "Civil",
+    "email": "lalitha.s@chamaralaw.in",
+    "phone": "8100000704"
+  },
+  {
+    "name": "Adv. Mohan H",
+    "city": "Chamarajanagar",
+    "specialization": "Consumer",
+    "email": "mohan.h@chamaralaw.in",
+    "phone": "8100000705"
+  },
+
+  {
+    "name": "Adv. Vinod Kumar",
+    "city": "Chikkaballapur",
+    "specialization": "Criminal",
+    "email": "vinod.k@chikkaballapurlaw.in",
+    "phone": "8100000801"
+  },
+  {
+    "name": "Adv. Priya S",
+    "city": "Chikkaballapur",
+    "specialization": "Family",
+    "email": "priya.s@chikkaballapurlaw.in",
+    "phone": "8100000802"
+  },
+  {
+    "name": "Adv. Anand R",
+    "city": "Chikkaballapur",
+    "specialization": "Property",
+    "email": "anand.r@chikkaballapurlaw.in",
+    "phone": "8100000803"
+  },
+  {
+    "name": "Adv. Hema K",
+    "city": "Chikkaballapur",
+    "specialization": "Civil",
+    "email": "hema.k@chikkaballapurlaw.in",
+    "phone": "8100000804"
+  },
+  {
+    "name": "Adv. Sandeep M",
+    "city": "Chikkaballapur",
+    "specialization": "Consumer",
+    "email": "sandeep.m@chikkaballapurlaw.in",
+    "phone": "8100000805"
+  },
+
+  {
+    "name": "Adv. Deepa N",
+    "city": "Chikkamagaluru",
+    "specialization": "Criminal",
+    "email": "deepa.n@chikkamagalurulaw.in",
+    "phone": "8100000901"
+  },
+  {
+    "name": "Adv. Rohit K",
+    "city": "Chikkamagaluru",
+    "specialization": "Family",
+    "email": "rohit.k@chikkamagalurulaw.in",
+    "phone": "8100000902"
+  },
+  {
+    "name": "Adv. S. V. Prasad",
+    "city": "Chikkamagaluru",
+    "specialization": "Property",
+    "email": "svp@chikkamagalurulaw.in",
+    "phone": "8100000903"
+  },
+  {
+    "name": "Adv. Nayana P",
+    "city": "Chikkamagaluru",
+    "specialization": "Civil",
+    "email": "nayana.p@chikkamagalurulaw.in",
+    "phone": "8100000904"
+  },
+  {
+    "name": "Adv. Kiran H",
+    "city": "Chikkamagaluru",
+    "specialization": "Consumer",
+    "email": "kiran.h@chikkamagalurulaw.in",
+    "phone": "8100000905"
+  },
+
+  {
+    "name": "Adv. Santosh Gowda",
+    "city": "Chitradurga",
+    "specialization": "Criminal",
+    "email": "santosh.g@chitradurgalaw.in",
+    "phone": "8100001001"
+  },
+  {
+    "name": "Adv. Rekha T",
+    "city": "Chitradurga",
+    "specialization": "Family",
+    "email": "rekha.t@chitradurgalaw.in",
+    "phone": "8100001002"
+  },
+  {
+    "name": "Adv. M. L. Reddy",
+    "city": "Chitradurga",
+    "specialization": "Property",
+    "email": "ml.reddy@chitradurgalaw.in",
+    "phone": "8100001003"
+  },
+  {
+    "name": "Adv. Anu V",
+    "city": "Chitradurga",
+    "specialization": "Civil",
+    "email": "anu.v@chitradurgalaw.in",
+    "phone": "8100001004"
+  },
+  {
+    "name": "Adv. K. S. Naik",
+    "city": "Chitradurga",
+    "specialization": "Consumer",
+    "email": "ks.naik@chitradurgalaw.in",
+    "phone": "8100001005"
+  },
+
+  {
+    "name": "Adv. R. K. Bhat",
+    "city": "Dakshina Kannada",
+    "specialization": "Criminal",
+    "email": "rkbhat@dkdnlaw.in",
+    "phone": "8100001101"
+  },
+  {
+    "name": "Adv. Myna P",
+    "city": "Dakshina Kannada",
+    "specialization": "Family",
+    "email": "myna.p@dkdnlaw.in",
+    "phone": "8100001102"
+  },
+  {
+    "name": "Adv. S. R. Kamath",
+    "city": "Dakshina Kannada",
+    "specialization": "Property",
+    "email": "sr.kamath@dkdnlaw.in",
+    "phone": "8100001103"
+  },
+  {
+    "name": "Adv. Leena D",
+    "city": "Dakshina Kannada",
+    "specialization": "Civil",
+    "email": "leena.d@dkdnlaw.in",
+    "phone": "8100001104"
+  },
+  {
+    "name": "Adv. Vinay Kumar",
+    "city": "Dakshina Kannada",
+    "specialization": "Consumer",
+    "email": "vinay.k@dkdnlaw.in",
+    "phone": "8100001105"
+  },
+
+  {
+    "name": "Adv. Anoop R",
+    "city": "Davanagere",
+    "specialization": "Criminal",
+    "email": "anoop.r@davanagere.in",
+    "phone": "8100001201"
+  },
+  {
+    "name": "Adv. Bhavana S",
+    "city": "Davanagere",
+    "specialization": "Family",
+    "email": "bhavana.s@davanagere.in",
+    "phone": "8100001202"
+  },
+  {
+    "name": "Adv. Chetan H",
+    "city": "Davanagere",
+    "specialization": "Property",
+    "email": "chetan.h@davanagere.in",
+    "phone": "8100001203"
+  },
+  {
+    "name": "Adv. Mehul Jain",
+    "city": "Davanagere",
+    "specialization": "Civil",
+    "email": "mehul.jain@davanagere.in",
+    "phone": "8100001204"
+  },
+  {
+    "name": "Adv. Sandhya R",
+    "city": "Davanagere",
+    "specialization": "Consumer",
+    "email": "sandhya.r@davanagere.in",
+    "phone": "8100001205"
+  },
+
+  {
+    "name": "Adv. Rakesh Shetty",
+    "city": "Dharwad",
+    "specialization": "Criminal",
+    "email": "rakesh.s@dharwadlaw.in",
+    "phone": "8100001301"
+  },
+  {
+    "name": "Adv. Anupama K",
+    "city": "Dharwad",
+    "specialization": "Family",
+    "email": "anupama.k@dharwadlaw.in",
+    "phone": "8100001302"
+  },
+  {
+    "name": "Adv. Sandeep V",
+    "city": "Dharwad",
+    "specialization": "Property",
+    "email": "sandeep.v@dharwadlaw.in",
+    "phone": "8100001303"
+  },
+  {
+    "name": "Adv. Priyanka M",
+    "city": "Dharwad",
+    "specialization": "Civil",
+    "email": "priyanka.m@dharwadlaw.in",
+    "phone": "8100001304"
+  },
+  {
+    "name": "Adv. K. R. Joshi",
+    "city": "Dharwad",
+    "specialization": "Consumer",
+    "email": "kr.joshi@dharwadlaw.in",
+    "phone": "8100001305"
+  },
+
+  {
+    "name": "Adv. Geeta S",
+    "city": "Gadag",
+    "specialization": "Criminal",
+    "email": "geeta.s@gadaglaw.in",
+    "phone": "8100001401"
+  },
+  {
+    "name": "Adv. Rohan P",
+    "city": "Gadag",
+    "specialization": "Family",
+    "email": "rohan.p@gadaglaw.in",
+    "phone": "8100001402"
+  },
+  {
+    "name": "Adv. Malathi N",
+    "city": "Gadag",
+    "specialization": "Property",
+    "email": "malathi.n@gadaglaw.in",
+    "phone": "8100001403"
+  },
+  {
+    "name": "Adv. V. S. Kulkarni",
+    "city": "Gadag",
+    "specialization": "Civil",
+    "email": "vsk@gadaglaw.in",
+    "phone": "8100001404"
+  },
+  {
+    "name": "Adv. Karthik G",
+    "city": "Gadag",
+    "specialization": "Consumer",
+    "email": "karthik.g@gadaglaw.in",
+    "phone": "8100001405"
+  },
+
+  {
+    "name": "Adv. Asha H",
+    "city": "Hassan",
+    "specialization": "Criminal",
+    "email": "asha.h@hassanlaw.in",
+    "phone": "8100001501"
+  },
+  {
+    "name": "Adv. Narayan M",
+    "city": "Hassan",
+    "specialization": "Family",
+    "email": "narayan.m@hassanlaw.in",
+    "phone": "8100001502"
+  },
+  {
+    "name": "Adv. Suman P",
+    "city": "Hassan",
+    "specialization": "Property",
+    "email": "suman.p@hassanlaw.in",
+    "phone": "8100001503"
+  },
+  {
+    "name": "Adv. Archana T",
+    "city": "Hassan",
+    "specialization": "Civil",
+    "email": "archana.t@hassanlaw.in",
+    "phone": "8100001504"
+  },
+  {
+    "name": "Adv. Manoj R",
+    "city": "Hassan",
+    "specialization": "Consumer",
+    "email": "manoj.r@hassanlaw.in",
+    "phone": "8100001505"
+  },
+
+  {
+    "name": "Adv. Vikram H",
+    "city": "Haveri",
+    "specialization": "Criminal",
+    "email": "vikram.h@haverilaw.in",
+    "phone": "8100001601"
+  },
+  {
+    "name": "Adv. Priyanka R",
+    "city": "Haveri",
+    "specialization": "Family",
+    "email": "priyanka.r@haverilaw.in",
+    "phone": "8100001602"
+  },
+  {
+    "name": "Adv. S. K. Patel",
+    "city": "Haveri",
+    "specialization": "Property",
+    "email": "sk.patel@haverilaw.in",
+    "phone": "8100001603"
+  },
+  {
+    "name": "Adv. Ritu D",
+    "city": "Haveri",
+    "specialization": "Civil",
+    "email": "ritu.d@haverilaw.in",
+    "phone": "8100001604"
+  },
+  {
+    "name": "Adv. Yash K",
+    "city": "Haveri",
+    "specialization": "Consumer",
+    "email": "yash.k@haverilaw.in",
+    "phone": "8100001605"
+  },
+
+  {
+    "name": "Adv. Pooja S",
+    "city": "Kalaburagi",
+    "specialization": "Criminal",
+    "email": "pooja.s@kalaburgalaw.in",
+    "phone": "8100001701"
+  },
+  {
+    "name": "Adv. Raman V",
+    "city": "Kalaburagi",
+    "specialization": "Family",
+    "email": "raman.v@kalaburgalaw.in",
+    "phone": "8100001702"
+  },
+  {
+    "name": "Adv. Farida Begum",
+    "city": "Kalaburagi",
+    "specialization": "Property",
+    "email": "farida.b@kalaburgalaw.in",
+    "phone": "8100001703"
+  },
+  {
+    "name": "Adv. S. M. Reddy",
+    "city": "Kalaburagi",
+    "specialization": "Civil",
+    "email": "sm.reddy@kalaburgalaw.in",
+    "phone": "8100001704"
+  },
+  {
+    "name": "Adv. Kavya N",
+    "city": "Kalaburagi",
+    "specialization": "Consumer",
+    "email": "kavya.n@kalaburgalaw.in",
+    "phone": "8100001705"
+  },
+
+  {
+    "name": "Adv. A. K. Prasad",
+    "city": "Kodagu",
+    "specialization": "Criminal",
+    "email": "ak.prasad@kodagulaw.in",
+    "phone": "8100001801"
+  },
+  {
+    "name": "Adv. Mythili R",
+    "city": "Kodagu",
+    "specialization": "Family",
+    "email": "mythili.r@kodagulaw.in",
+    "phone": "8100001802"
+  },
+  {
+    "name": "Adv. Suresh G",
+    "city": "Kodagu",
+    "specialization": "Property",
+    "email": "suresh.g@kodagulaw.in",
+    "phone": "8100001803"
+  },
+  {
+    "name": "Adv. Nidhi P",
+    "city": "Kodagu",
+    "specialization": "Civil",
+    "email": "nidhi.p@kodagulaw.in",
+    "phone": "8100001804"
+  },
+  {
+    "name": "Adv. Laxman T",
+    "city": "Kodagu",
+    "specialization": "Consumer",
+    "email": "laxman.t@kodagulaw.in",
+    "phone": "8100001805"
+  },
+
+  {
+    "name": "Adv. Meera S",
+    "city": "Kolar",
+    "specialization": "Criminal",
+    "email": "meera.s@kolarlaw.in",
+    "phone": "8100001901"
+  },
+  {
+    "name": "Adv. R. K. Nair",
+    "city": "Kolar",
+    "specialization": "Family",
+    "email": "rk.nair@kolarlaw.in",
+    "phone": "8100001902"
+  },
+  {
+    "name": "Adv. Jyothi P",
+    "city": "Kolar",
+    "specialization": "Property",
+    "email": "jyothi.p@kolarlaw.in",
+    "phone": "8100001903"
+  },
+  {
+    "name": "Adv. Harish M",
+    "city": "Kolar",
+    "specialization": "Civil",
+    "email": "harish.m@kolarlaw.in",
+    "phone": "8100001904"
+  },
+  {
+    "name": "Adv. Sneha G",
+    "city": "Kolar",
+    "specialization": "Consumer",
+    "email": "sneha.g@kolarlaw.in",
+    "phone": "8100001905"
+  },
+
+  {
+    "name": "Adv. Kumar S",
+    "city": "Koppal",
+    "specialization": "Criminal",
+    "email": "kumar.s@koppallaw.in",
+    "phone": "8100002001"
+  },
+  {
+    "name": "Adv. Nandini R",
+    "city": "Koppal",
+    "specialization": "Family",
+    "email": "nandini.r@koppallaw.in",
+    "phone": "8100002002"
+  },
+  {
+    "name": "Adv. Balachandra",
+    "city": "Koppal",
+    "specialization": "Property",
+    "email": "balachandra@koppallaw.in",
+    "phone": "8100002003"
+  },
+  {
+    "name": "Adv. Archana V",
+    "city": "Koppal",
+    "specialization": "Civil",
+    "email": "archana.v@koppallaw.in",
+    "phone": "8100002004"
+  },
+  {
+    "name": "Adv. Rakesh P",
+    "city": "Koppal",
+    "specialization": "Consumer",
+    "email": "rakesh.p@koppallaw.in",
+    "phone": "8100002005"
+  },
+
+  {
+    "name": "Adv. D. K. Rao",
+    "city": "Mandya",
+    "specialization": "Criminal",
+    "email": "dk.rao@mandyalaw.in",
+    "phone": "8100002101"
+  },
+  {
+    "name": "Adv. Bhavani S",
+    "city": "Mandya",
+    "specialization": "Family",
+    "email": "bhavani.s@mandyalaw.in",
+    "phone": "8100002102"
+  },
+  {
+    "name": "Adv. S. V. Prakash",
+    "city": "Mandya",
+    "specialization": "Property",
+    "email": "svp@mandyalaw.in",
+    "phone": "8100002103"
+  },
+  {
+    "name": "Adv. Manju K",
+    "city": "Mandya",
+    "specialization": "Civil",
+    "email": "manju.k@mandyalaw.in",
+    "phone": "8100002104"
+  },
+  {
+    "name": "Adv. Prakash H",
+    "city": "Mandya",
+    "specialization": "Consumer",
+    "email": "prakash.h@mandyalaw.in",
+    "phone": "8100002105"
+  },
+
+  {
+    "name": "Adv. R. S. Kumar",
+    "city": "Mysuru",
+    "specialization": "Criminal",
+    "email": "rs.kumar@mysurulaw.in",
+    "phone": "8100002201"
+  },
+  {
+    "name": "Adv. Asha P",
+    "city": "Mysuru",
+    "specialization": "Family",
+    "email": "asha.p@mysurulaw.in",
+    "phone": "8100002202"
+  },
+  {
+    "name": "Adv. Nitin K",
+    "city": "Mysuru",
+    "specialization": "Property",
+    "email": "nitin.k@mysurulaw.in",
+    "phone": "8100002203"
+  },
+  {
+    "name": "Adv. Divya L",
+    "city": "Mysuru",
+    "specialization": "Civil",
+    "email": "divya.l@mysurulaw.in",
+    "phone": "8100002204"
+  },
+  {
+    "name": "Adv. Suresh N",
+    "city": "Mysuru",
+    "specialization": "Consumer",
+    "email": "suresh.n@mysurulaw.in",
+    "phone": "8100002205"
+  },
+
+  {
+    "name": "Adv. Zafar Ali",
+    "city": "Raichur",
+    "specialization": "Criminal",
+    "email": "zafar.ali@raichurlaw.in",
+    "phone": "8100002301"
+  },
+  {
+    "name": "Adv. Meenal S",
+    "city": "Raichur",
+    "specialization": "Family",
+    "email": "meenal.s@raichurlaw.in",
+    "phone": "8100002302"
+  },
+  {
+    "name": "Adv. N. R. Patil",
+    "city": "Raichur",
+    "specialization": "Property",
+    "email": "nr.patil@raichurlaw.in",
+    "phone": "8100002303"
+  },
+  {
+    "name": "Adv. Latha M",
+    "city": "Raichur",
+    "specialization": "Civil",
+    "email": "latha.m@raichurlaw.in",
+    "phone": "8100002304"
+  },
+  {
+    "name": "Adv. Gopal S",
+    "city": "Raichur",
+    "specialization": "Consumer",
+    "email": "gopal.s@raichurlaw.in",
+    "phone": "8100002305"
+  },
+
+  {
+    "name": "Adv. R. V. Narayan",
+    "city": "Ramanagara",
+    "specialization": "Criminal",
+    "email": "rv.narayan@ramanagarlaw.in",
+    "phone": "8100002401"
+  },
+  {
+    "name": "Adv. Priyanka D",
+    "city": "Ramanagara",
+    "specialization": "Family",
+    "email": "priyanka.d@ramanagarlaw.in",
+    "phone": "8100002402"
+  },
+  {
+    "name": "Adv. K. S. Reddy",
+    "city": "Ramanagara",
+    "specialization": "Property",
+    "email": "ks.reddy@ramanagarlaw.in",
+    "phone": "8100002403"
+  },
+  {
+    "name": "Adv. Shivani P",
+    "city": "Ramanagara",
+    "specialization": "Civil",
+    "email": "shivani.p@ramanagarlaw.in",
+    "phone": "8100002404"
+  },
+  {
+    "name": "Adv. Amit K",
+    "city": "Ramanagara",
+    "specialization": "Consumer",
+    "email": "amit.k@ramanagarlaw.in",
+    "phone": "8100002405"
+  },
+
+  {
+    "name": "Adv. Ramesh H",
+    "city": "Shivamogga",
+    "specialization": "Criminal",
+    "email": "ramesh.h@shivamoggalaw.in",
+    "phone": "8100002501"
+  },
+  {
+    "name": "Adv. Nandita S",
+    "city": "Shivamogga",
+    "specialization": "Family",
+    "email": "nandita.s@shivamoggalaw.in",
+    "phone": "8100002502"
+  },
+  {
+    "name": "Adv. Prakash M",
+    "city": "Shivamogga",
+    "specialization": "Property",
+    "email": "prakash.m@shivamoggalaw.in",
+    "phone": "8100002503"
+  },
+  {
+    "name": "Adv. Preethi R",
+    "city": "Shivamogga",
+    "specialization": "Civil",
+    "email": "preethi.r@shivamoggalaw.in",
+    "phone": "8100002504"
+  },
+  {
+    "name": "Adv. K. V. Rao",
+    "city": "Shivamogga",
+    "specialization": "Consumer",
+    "email": "kv.rao@shivamoggalaw.in",
+    "phone": "8100002505"
+  },
+
+  {
+    "name": "Adv. B. S. Ramesh",
+    "city": "Tumakuru",
+    "specialization": "Criminal",
+    "email": "bs.ramesh@tumakurlaw.in",
+    "phone": "8100002601"
+  },
+  {
+    "name": "Adv. Meera K",
+    "city": "Tumakuru",
+    "specialization": "Family",
+    "email": "meera.k@tumakurlaw.in",
+    "phone": "8100002602"
+  },
+  {
+    "name": "Adv. Lokesh P",
+    "city": "Tumakuru",
+    "specialization": "Property",
+    "email": "lokesh.p@tumakurlaw.in",
+    "phone": "8100002603"
+  },
+  {
+    "name": "Adv. Sunitha N",
+    "city": "Tumakuru",
+    "specialization": "Civil",
+    "email": "sunitha.n@tumakurlaw.in",
+    "phone": "8100002604"
+  },
+  {
+    "name": "Adv. Raju M",
+    "city": "Tumakuru",
+    "specialization": "Consumer",
+    "email": "raju.m@tumakurlaw.in",
+    "phone": "8100002605"
+  },
+
+  {
+    "name": "Adv. Preetham K",
+    "city": "Udupi",
+    "specialization": "Criminal",
+    "email": "preetham.k@udupilaw.in",
+    "phone": "8100002701"
+  },
+  {
+    "name": "Adv. Shreya N",
+    "city": "Udupi",
+    "specialization": "Family",
+    "email": "shreya.n@udupilaw.in",
+    "phone": "8100002702"
+  },
+  {
+    "name": "Adv. Ramesh K",
+    "city": "Udupi",
+    "specialization": "Property",
+    "email": "ramesh.k@udupilaw.in",
+    "phone": "8100002703"
+  },
+  {
+    "name": "Adv. Lakshmi P",
+    "city": "Udupi",
+    "specialization": "Civil",
+    "email": "lakshmi.p@udupilaw.in",
+    "phone": "8100002704"
+  },
+  {
+    "name": "Adv. Anirudh S",
+    "city": "Udupi",
+    "specialization": "Consumer",
+    "email": "anirudh.s@udupilaw.in",
+    "phone": "8100002705"
+  },
+
+  {
+    "name": "Adv. G. N. Rao",
+    "city": "Uttara Kannada",
+    "specialization": "Criminal",
+    "email": "gn.rao@uttarakannadalaw.in",
+    "phone": "8100002801"
+  },
+  {
+    "name": "Adv. Neha P",
+    "city": "Uttara Kannada",
+    "specialization": "Family",
+    "email": "neha.p@uttarakannadalaw.in",
+    "phone": "8100002802"
+  },
+  {
+    "name": "Adv. S. R. Shetty",
+    "city": "Uttara Kannada",
+    "specialization": "Property",
+    "email": "sr.shetty@uttarakannadalaw.in",
+    "phone": "8100002803"
+  },
+  {
+    "name": "Adv. Padmini K",
+    "city": "Uttara Kannada",
+    "specialization": "Civil",
+    "email": "padmini.k@uttarakannadalaw.in",
+    "phone": "8100002804"
+  },
+  {
+    "name": "Adv. Hari B",
+    "city": "Uttara Kannada",
+    "specialization": "Consumer",
+    "email": "hari.b@uttarakannadalaw.in",
+    "phone": "8100002805"
+  },
+
+  {
+    "name": "Adv. Vikram S",
+    "city": "Vijayapura",
+    "specialization": "Criminal",
+    "email": "vikram.s@vijayapuraw.in",
+    "phone": "8100002901"
+  },
+  {
+    "name": "Adv. Leela M",
+    "city": "Vijayapura",
+    "specialization": "Family",
+    "email": "leela.m@vijayapuraw.in",
+    "phone": "8100002902"
+  },
+  {
+    "name": "Adv. N. K. Rao",
+    "city": "Vijayapura",
+    "specialization": "Property",
+    "email": "nk.rao@vijayapuraw.in",
+    "phone": "8100002903"
+  },
+  {
+    "name": "Adv. Shruthi P",
+    "city": "Vijayapura",
+    "specialization": "Civil",
+    "email": "shruthi.p@vijayapuraw.in",
+    "phone": "8100002904"
+  },
+  {
+    "name": "Adv. Mahesh K",
+    "city": "Vijayapura",
+    "specialization": "Consumer",
+    "email": "mahesh.k@vijayapuraw.in",
+    "phone": "8100002905"
+  },
+
+  {
+    "name": "Adv. Iqbal H",
+    "city": "Yadgir",
+    "specialization": "Criminal",
+    "email": "iqbal.h@yadgirlaw.in",
+    "phone": "8100003001"
+  },
+  {
+    "name": "Adv. Radha S",
+    "city": "Yadgir",
+    "specialization": "Family",
+    "email": "radha.s@yadgirlaw.in",
+    "phone": "8100003002"
+  },
+  {
+    "name": "Adv. Balu P",
+    "city": "Yadgir",
+    "specialization": "Property",
+    "email": "balu.p@yadgirlaw.in",
+    "phone": "8100003003"
+  },
+  {
+    "name": "Adv. Shalini M",
+    "city": "Yadgir",
+    "specialization": "Civil",
+    "email": "shalini.m@yadgirlaw.in",
+    "phone": "8100003004"
+  },
+  {
+    "name": "Adv. Omkar N",
+    "city": "Yadgir",
+    "specialization": "Consumer",
+    "email": "omkar.n@yadgirlaw.in",
+    "phone": "8100003005"
+  },
+
+  {
+    "name": "Adv. S. V. Kumar",
+    "city": "Vijayanagara",
+    "specialization": "Criminal",
+    "email": "sv.kumar@vijayanagaralaw.in",
+    "phone": "8100003101"
+  },
+  {
+    "name": "Adv. Priya M",
+    "city": "Vijayanagara",
+    "specialization": "Family",
+    "email": "priya.m@vijayanagaralaw.in",
+    "phone": "8100003102"
+  },
+  {
+    "name": "Adv. Anil R",
+    "city": "Vijayanagara",
+    "specialization": "Property",
+    "email": "anil.r@vijayanagaralaw.in",
+    "phone": "8100003103"
+  },
+  {
+    "name": "Adv. Sahana T",
+    "city": "Vijayanagara",
+    "specialization": "Civil",
+    "email": "sahana.t@vijayanagaralaw.in",
+    "phone": "8100003104"
+  },
+  {
+    "name": "Adv. Manoj D",
+    "city": "Vijayanagara",
+    "specialization": "Consumer",
+    "email": "manoj.d@vijayanagaralaw.in",
+    "phone": "8100003105"
+  }
+]

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find a Lawyer | LegalAI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #141e30, #243b55);
+      color: #fff;
+      min-height: 100vh;
+      padding-bottom: 40px;
+    }
+    .container {
+      max-width: 800px;
+      margin-top: 50px;
+      background: rgba(255,255,255,0.08);
+      padding: 30px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    }
+    .form-label {
+      color: #ffb3b3;
+      font-weight: 600;
+    }
+    .btn-search {
+      background: #ff4b2b;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 20px;
+      color: #fff;
+      transition: 0.3s;
+    }
+    .btn-search:hover {
+      background: #ff1e00;
+    }
+    table {
+      color: #fff;
+      margin-top: 30px;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      padding: 10px 15px;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+    th {
+      color: #ff4b2b;
+      font-weight: 600;
+    }
+    tr:hover {
+      background: rgba(255,255,255,0.05);
+    }
+    a.back-btn {
+      display: inline-block;
+      margin-top: 20px;
+      color: #ffb3b3;
+      text-decoration: none;
+    }
+    a.back-btn:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2 class="text-center mb-4"><i class="fa-solid fa-gavel"></i> Find a Lawyer</h2>
+
+    <form method="POST" class="card p-4">
+
+  <h4 class="mb-3">🔍 Find a Lawyer</h4>
+
+  <!-- City Dropdown -->
+  <label class="form-label">Select City</label>
+  <select name="city" class="form-select mb-3" required>
+    <option value="" disabled selected>Choose a city</option>
+    <option>Bagalkot</option>
+    <option>Ballari</option>
+    <option>Belagavi</option>
+    <option>Bengaluru Urban</option>
+    <option>Bengaluru Rural</option>
+    <option>Bidar</option>
+    <option>Chamarajanagar</option>
+    <option>Chikkaballapur</option>
+    <option>Chikkamagaluru</option>
+    <option>Chitradurga</option>
+    <option>Dakshina Kannada</option>
+    <option>Davanagere</option>
+    <option>Dharwad</option>
+    <option>Gadag</option>
+    <option>Hassan</option>
+    <option>Haveri</option>
+    <option>Kalaburagi</option>
+    <option>Kodagu</option>
+    <option>Kolar</option>
+    <option>Koppal</option>
+    <option>Mandya</option>
+    <option>Mysuru</option>
+    <option>Raichur</option>
+    <option>Ramanagara</option>
+    <option>Shivamogga</option>
+    <option>Tumakuru</option>
+    <option>Udupi</option>
+    <option>Uttara Kannada</option>
+    <option>Vijayapura</option>
+    <option>Yadgir</option>
+    <option>Vijayanagara</option>
+  </select>
+
+  <!-- Specialization Dropdown -->
+  <label class="form-label">Select Specialization</label>
+  <select name="specialization" class="form-select mb-3" required>
+    <option value="" disabled selected>Choose specialization</option>
+    <option>Criminal</option>
+    <option>Family</option>
+    <option>Property</option>
+    <option>Civil</option>
+    <option>Consumer</option>
+  </select>
+
+  <button type="submit" class="btn btn-primary w-100">Search Lawyer</button>
+
+</form>
+
+    {% if lawyers %}
+      <h4 class="mt-5">Results:</h4>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>City</th>
+          <th>Specialization</th>
+          <th>Email</th>
+          <th>Phone</th>
+        </tr>
+        {% for lawyer in lawyers %}
+        <tr>
+          <td>{{ lawyer.name }}</td>
+          <td>{{ lawyer.city }}</td>
+          <td>{{ lawyer.specialization }}</td>
+          <td>{{ lawyer.email }}</td>
+          <td>{{ lawyer.phone }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    {% endif %}
+
+    <div class="text-center">
+      <a href="/home" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
+    </div>
+  </div>
+
+</body>
+</html>

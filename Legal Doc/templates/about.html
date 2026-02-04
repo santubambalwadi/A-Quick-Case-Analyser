@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: #000; /* black background */
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    .team-section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .team-section h2 {
+      margin-bottom: 40px;
+      font-size: 36px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .team-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: stretch; /* ensures equal height */
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .team-member {
+      background: #111; /* dark card */
+      border-radius: 12px;
+      box-shadow: 0px 4px 12px rgba(255,255,255,0.1);
+      padding: 20px;
+      width: 22%; /* 4 members horizontally */
+      min-width: 250px;
+      display: flex;
+      flex-direction: column; /* stack items vertically */
+      justify-content: space-between; /* push content evenly */
+      transition: transform 0.3s;
+    }
+
+    .team-member:hover {
+      transform: translateY(-8px);
+      box-shadow: 0px 6px 16px rgba(255,255,255,0.2);
+    }
+
+   .team-member img {
+  width: 100%;
+  height: 300px;   /* fixed equal height for all */
+  object-fit: cover;  /* fills completely, no empty sides */
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+
+
+    .team-member h4 {
+      margin: 10px 0 5px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .team-member p {
+      margin: 5px 0;
+      font-size: 16px;
+    }
+
+    .team-member a {
+      color: #0d6efd; /* Bootstrap blue links */
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .team-member a:hover {
+      text-decoration: underline;
+    }
+
+    .back-home-btn {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      padding: 6px 12px;
+      background: #dc3545; /* red */
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 13px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      transition: background 0.3s;
+    }
+    .back-home-btn:hover {
+      background: #b02a37;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="{{ url_for('home') }}" class="back-home-btn">⬅ Back to Home</a>
+
+  <div class="team-section">
+    <h2>👩‍💻 Our Team</h2>
+    <div class="team-container">
+      
+      <div class="team-member">
+        <img src="{{ url_for('static', filename='images/1.jpg') }}" alt="Member 1">
+        <h4>Santosh Bambalwadi</h4>
+        <p>📞 <a href="tel:+918073301468">+91 8073301468</a></p>
+        <p>✉️ <a href="mailto:santubambalwadi@gmail.com">santubambalwadi@gmail.com</a></p>
+      </div>
+
+      <div class="team-member">
+        <img src="{{ url_for('static', filename='images/2.jpg') }}" alt="Member 2">
+        <h4>Shridhar Kamble</h4>
+        <p>📞 <a href="tel:+918951677859">+91 8951677859</a></p>
+        <p>✉️ <a href="mailto:shridhar@example.com">shridharkamble942@gmail.com</a></p>
+      </div>
+
+      <div class="team-member">
+        <img src="{{ url_for('static', filename='images/3.jpg') }}" alt="Member 3">
+        <h4>Shubham Shiragave</h4>
+        <p>📞 <a href="tel:+919019793501">+91 9019793501</a></p>
+        <p>✉️ <a href="mailto:shubham@example.com">shubham@gmail.com</a></p>
+      </div>
+
+      <div class="team-member">
+        <img src="{{ url_for('static', filename='images/4.jpg') }}" alt="Member 4">
+        <h4>Rojana Jamadar</h4>
+        <p>📞 <a href="tel:+918867997784">+91 8867997784</a></p>
+        <p>✉️ <a href="mailto:rojana@example.com">rojanajamadar88@gmail.com</a></p>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

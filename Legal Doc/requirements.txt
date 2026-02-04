@@ -1,0 +1,11 @@
+flask
+transformers>=4.41.0
+torch>=2.2.0
+sentencepiece
+accelerate
+pymupdf
+python-docx
+pillow
+pytesseract
+deep-translator
+fpdf

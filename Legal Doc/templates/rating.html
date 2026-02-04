@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rate Us</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1f1c2c, #928DAB);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .rating-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      text-align: center;
+      width: 350px;
+      animation: fadeIn 0.8s ease-in-out;
+    }
+    h2 {
+      color: #333;
+      margin-bottom: 15px;
+    }
+    .stars {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin: 20px 0;
+    }
+    .stars input {
+      display: none;
+    }
+    .stars label {
+      font-size: 2.2rem;
+      color: #ccc;
+      cursor: pointer;
+      transition: transform 0.2s, color 0.3s;
+    }
+    .stars input:checked ~ label,
+    .stars label:hover,
+    .stars label:hover ~ label {
+      color: gold;
+      transform: scale(1.2);
+    }
+    button {
+      background: #4CAF50;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #45a049;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(-20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+  flex-direction: row-reverse; /* ⭐ FIX */
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="rating-container">
+    <h2>⭐ Rate Your Experience</h2>
+    <form method="POST">
+      <div class="stars">
+        <input type="radio" name="stars" id="star5" value="5">
+        <label for="star5">★</label>
+        <input type="radio" name="stars" id="star4" value="4">
+        <label for="star4">★</label>
+        <input type="radio" name="stars" id="star3" value="3">
+        <label for="star3">★</label>
+        <input type="radio" name="stars" id="star2" value="2">
+        <label for="star2">★</label>
+        <input type="radio" name="stars" id="star1" value="1">
+        <label for="star1">★</label>
+      </div>
+      <button type="submit">Submit Rating</button>
+    </form>
+  </div>
+</body>
+</html>

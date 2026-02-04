@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome | Legal Analyzer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+
+    /* 🔵 Rotating Gradient Circle (ONLY ICON) */
+    .loader-circle {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 0 auto 20px auto;
+      background: linear-gradient(45deg, #2a5298, #28a745);
+      animation: spin 2.5s linear infinite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 20px rgba(0,0,0,0.25);
+    }
+
+    .loader-circle i {
+      font-size: 70px;
+      color: white;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+      100% { transform: scale(1); }
+    }
+
+
+    /* Background Gradient Animation */
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298, #6a11cb, #2575fc);
+      background-size: 400% 400%;
+      animation: gradientBG 12s ease infinite;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+      text-align: center;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Titles */
+    .title {
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+      text-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+
+    /* Tagline typing area */
+    .tagline {
+      font-size: 1.4rem;
+      margin-bottom: 45px;
+      min-height: 35px;
+    }
+
+
+    /* Buttons */
+    .card {
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .btn {
+      padding: 18px 40px;
+      font-size: 1.3rem;
+      font-weight: 600;
+      border-radius: 14px;
+      text-decoration: none;
+      color: white;
+      transition: 0.35s;
+      background: linear-gradient(135deg, #43e97b, #38f9d7);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .btn:hover {
+      transform: scale(1.12);
+      box-shadow: 0 0 25px rgba(56, 249, 215, 0.9);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.95rem;
+      opacity: 0.9;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Only ONE symbol now -->
+  <div class="loader-circle">
+    <i class="fa-solid fa-scale-balanced"></i>
+  </div>
+
+  <div class="title">Legal Analyzer</div>
+
+  <div class="tagline" id="tagline"></div>
+
+  <div class="card">
+    <a href="{{ url_for('login') }}" class="btn">👤 User</a>
+    <a href="{{ url_for('admin_login') }}" class="btn">🛡 Admin</a>
+  </div>
+
+  <footer>
+    © {{ datetime.utcnow().year }} Legal Analyzer | Made with ❤
+  </footer>
+
+  <!-- Typing Effect Script -->
+  <script>
+    const textArray = [
+      "Analyzing cases... simplifying justice ⚖",
+      "Smart legal insights powered by AI 🤖",
+      "Your digital partner in law 📑"
+    ];
+
+    let textIndex = 0, charIndex = 0;
+    const taglineElement = document.getElementById("tagline");
+
+    function typeEffect() {
+      if (charIndex < textArray[textIndex].length) {
+        taglineElement.textContent += textArray[textIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(typeEffect, 70);
+      } else {
+        setTimeout(eraseEffect, 1800);
+      }
+    }
+
+    function eraseEffect() {
+      if (charIndex > 0) {
+        taglineElement.textContent = textArray[textIndex].substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(eraseEffect, 40);
+      } else {
+        textIndex = (textIndex + 1) % textArray.length;
+        setTimeout(typeEffect, 300);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", typeEffect);
+  </script>
+
+</body>
+</html>
