@@ -41,7 +41,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 pip install PyPDF2 reportlab deep-translator
 ```
-### **4 Run the Application
+### **4️⃣ Run the Application
 ```bash
 python app.py
 ```
