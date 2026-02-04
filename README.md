@@ -1,88 +1,87 @@
 # **📜 Legal Document Analyzer** 🚀  
 
-An **AI-powered tool** that extracts, summarizes, classifies, and translates legal documents. It supports **PDF, DOCX, and TXT**, including scanned PDFs using **OCR**.  
+An AI-powered web application that analyzes legal case documents and provides intelligent insights such as summary, case type, IPC sections, legal remedies, risk score, translation, and lawyer suggestions.
 
 ## **🔍 Features**  
-✅ Extracts text from **PDF, DOCX, and TXT** (supports scanned PDFs via OCR).  
-✅ Summarizes **long legal documents** (handles **50+ pages**).  
-✅ Classifies documents into legal categories (**Property Dispute, Criminal Case, Corporate Law, etc.**).  
-✅ Provides a **Risk Score** (**Low, Medium, High**) based on classification.  
-✅ Supports **translation into 11 Indian languages**.  
-✅ AI **chatbot** for answering legal queries based on document context.  
-✅ **Downloadable PDF report** with summary, classification, and risk score.  
+✅ Upload legal case files in PDF, DOCX, and TXT formats.
+✅ Extracts text from documents using PyMuPDF and OCR for scanned PDFs.
+✅ Performs AI-based summarization for large case documents.
+✅ Detects the nature of the case (Criminal, Family, Property, Contract, Environmental, etc.).
+✅ Identifies relevant IPC sections based on document content.
+✅ Calculates a Risk Score (Low / Medium / High) from case keywords.
+✅ Suggests legal remedies and recommended lawyers.
+✅ Supports translation of summary into multiple languages.
+✅ Allows users to download a detailed PDF case report.
+✅ Includes feedback system and admin dashboard for monitoring usage.
 
 ## **🛠️ Tech Stack**  
-- **Backend:** Flask, Transformers (`facebook/bart-large-cnn`, `facebook/bart-large-mnli`), PyMuPDF, Pytesseract (OCR).  
+- **Backend:** Flask(Python Web Framework)
+- **AI/NLP:** Transformers (`facebook/bart-large-cnn`, `facebook/bart-large-mnli`), PyMuPDF, Pytesseract (OCR).  
 - **AI Models:** `flan-t5-large` (for chatbot & text refinement).  
-- **Frontend:** HTML, CSS, JavaScript (Flask Jinja templates).  
-- **Translation:** `deep-translator` (Google Translate API).  
-- **Storage:** Local `uploads/` directory for document processing.  
+- **Translation:** `deep-translator` (Google Translate API).
+- **Frontend:** HTML, CSS, JavaScript(Flask Jinja Templates)
+- **Storage:** Local `uploads/` history.json,lawyers.json.  
 
 ## **🚀 Installation & Setup**  
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/your-username/legal-document-analyzer.git
-cd legal-document-analyzer
+git clone https://github.com/santubambalwadi/A-Quick-Case-Analyser.git
+cd "A Quick Case Analyser/Legal Doc"
 ```
 
 ### **2️⃣ Create a Virtual Environment (Optional but Recommended)**
 ```bash
 python -m venv venv
-source venv/bin/activate  # On macOS/Linux
-venv\Scripts\activate  # On Windows
+venv\Scripts\activate
 ```
 
 ### **3️⃣ Install Dependencies**
 ```bash
 pip install -r requirements.txt
-
-### **4️⃣ Run the Application**
+pip install PyPDF2 reportlab deep-translator
+```
+### **4 Run the Application
 ```bash
 python app.py
 ```
+
 The app will be available at **http://127.0.0.1:5000/**  
 
 ## **📂 Project Structure**
 ```
-Legal-Doc-Analyzer/
-│── app.py                  # Flask Backend (Main Logic)
-│── templates/
-│   ├── index.html          # Frontend UI
-│── static/
-│   ├── styles.css          # Styling
-│   ├── script.js           # Handles Chatbot, Analysis, Translation
-│── uploads/                # Stores Uploaded Documents
-│── requirements.txt        # Dependencies
-│── README.md               # Documentation
+A Quick Case Analyser
+ └── Legal Doc
+      ├── app.py
+      ├── templates/
+      ├── static/
+      ├── uploads/
+      ├── history.json
+      ├── lawyers.json
+      ├── requirements.txt
+      └── README.md
 ```
 ## **🛠️ How It Works**
-1️⃣ **Upload a legal document** (PDF, DOCX, TXT).  
-2️⃣ **The app extracts text** (OCR used for scanned PDFs).  
-3️⃣ **Summarization is performed** using chunk-based processing (**handles 50+ pages**).  
-4️⃣ **Classification determines** the legal category (**e.g., Property Dispute, Criminal Case**).  
-5️⃣ **Risk Score is assigned** (**Low, Medium, High**).  
-6️⃣ **Users can translate** the summary into **11 languages**.  
-7️⃣ **Chatbot answers legal queries** based on document content.  
-8️⃣ **Users can download a report** with all processed data.  
+1️⃣ User uploads a legal document (PDF/DOCX/TXT).
+2️⃣ Text is extracted (OCR used if scanned).
+3️⃣ AI summarizes the document content.
+4️⃣ System detects the case type using keyword + AI logic.
+5️⃣ Risk score is calculated from sensitive terms.
+6️⃣ Relevant IPC sections, remedies, and lawyers are suggested.
+7️⃣ User can translate summary or download a full PDF report.
+8️⃣ Admin dashboard records user activity and feedback.
 
 ## **📜 Supported Languages for Translation**
 - **English (en)**
 - **Hindi (hi)**
-- **French (fr)**
-- **Spanish (es)**
 - **Tamil (ta)**
-- **Bengali (bn)**
 - **Marathi (mr)**
-- **Gujarati (gu)**
 - **Telugu (te)**
-- **Urdu (ur)**
-- **Punjabi (pa)**
 
 ## **💡 Future Enhancements**
-🚀 **Automated Legal Precedent Finder** – Suggests similar cases from legal databases.  
-🚀 **Legal Term Explanations** – Definitions of complex legal jargon when hovered over.  
-🚀 **Integration with e-Courts API** – Fetch related legal cases directly.  
+🚀 Integration with real legal databases and e-Courts API
+🚀 Advanced AI case similarity detection
+🚀 Secure cloud-based case history storage 
 
 ## **📌 Contribution**
 Want to improve this project? **Fork, modify, and submit a pull request!** 🎯  
