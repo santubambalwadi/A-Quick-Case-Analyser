@@ -3,16 +3,16 @@
 An AI-powered web application that analyzes legal case documents and provides intelligent insights such as summary, case type, IPC sections, legal remedies, risk score, translation, and lawyer suggestions.
 
 ## **🔍 Features**  
-✅ Upload legal case files in PDF, DOCX, and TXT formats.
-✅ Extracts text from documents using PyMuPDF and OCR for scanned PDFs.
-✅ Performs AI-based summarization for large case documents.
-✅ Detects the nature of the case (Criminal, Family, Property, Contract, Environmental, etc.).
-✅ Identifies relevant IPC sections based on document content.
-✅ Calculates a Risk Score (Low / Medium / High) from case keywords.
-✅ Suggests legal remedies and recommended lawyers.
-✅ Supports translation of summary into multiple languages.
-✅ Allows users to download a detailed PDF case report.
-✅ Includes feedback system and admin dashboard for monitoring usage.
+-✅ Upload legal case files in PDF, DOCX, and TXT formats.
+-✅ Extracts text from documents using PyMuPDF and OCR for scanned PDFs.
+-✅ Performs AI-based summarization for large case documents.
+-✅ Detects the nature of the case (Criminal, Family, Property, Contract, Environmental, etc.).
+-✅ Identifies relevant IPC sections based on document content.
+-✅ Calculates a Risk Score (Low / Medium / High) from case keywords.
+-✅ Suggests legal remedies and recommended lawyers.
+-✅ Supports translation of summary into multiple languages.
+-✅ Allows users to download a detailed PDF case report.
+-✅ Includes feedback system and admin dashboard for monitoring usage.
 
 ## **🛠️ Tech Stack**  
 - **Backend:** Flask(Python Web Framework)
@@ -62,14 +62,14 @@ A Quick Case Analyser
       └── README.md
 ```
 ## **🛠️ How It Works**
-1️⃣ User uploads a legal document (PDF/DOCX/TXT).
-2️⃣ Text is extracted (OCR used if scanned).
-3️⃣ AI summarizes the document content.
-4️⃣ System detects the case type using keyword + AI logic.
-5️⃣ Risk score is calculated from sensitive terms.
-6️⃣ Relevant IPC sections, remedies, and lawyers are suggested.
-7️⃣ User can translate summary or download a full PDF report.
-8️⃣ Admin dashboard records user activity and feedback.
+-1️⃣ User uploads a legal document (PDF/DOCX/TXT).
+-2️⃣ Text is extracted (OCR used if scanned).
+-3️⃣ AI summarizes the document content.
+-4️⃣ System detects the case type using keyword + AI logic.
+-5️⃣ Risk score is calculated from sensitive terms.
+-6️⃣ Relevant IPC sections, remedies, and lawyers are suggested.
+-7️⃣ User can translate summary or download a full PDF report.
+-8️⃣ Admin dashboard records user activity and feedback.
 
 ## **📜 Supported Languages for Translation**
 - **English (en)**
