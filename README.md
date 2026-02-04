@@ -3,16 +3,16 @@
 An AI-powered web application that analyzes legal case documents and provides intelligent insights such as summary, case type, IPC sections, legal remedies, risk score, translation, and lawyer suggestions.
 
 ## **🔍 Features**  
--✅ Upload legal case files in PDF, DOCX, and TXT formats.
--✅ Extracts text from documents using PyMuPDF and OCR for scanned PDFs.
--✅ Performs AI-based summarization for large case documents.
--✅ Detects the nature of the case (Criminal, Family, Property, Contract, Environmental, etc.).
--✅ Identifies relevant IPC sections based on document content.
--✅ Calculates a Risk Score (Low / Medium / High) from case keywords.
--✅ Suggests legal remedies and recommended lawyers.
--✅ Supports translation of summary into multiple languages.
--✅ Allows users to download a detailed PDF case report.
--✅ Includes feedback system and admin dashboard for monitoring usage.
+- ✅ Upload legal case files in PDF, DOCX, and TXT formats.
+- ✅ Extracts text from documents using PyMuPDF and OCR for scanned PDFs.
+- ✅ Performs AI-based summarization for large case documents.
+- ✅ Detects the nature of the case (Criminal, Family, Property, Contract, Environmental, etc.).
+- ✅ Identifies relevant IPC sections based on document content.
+- ✅ Calculates a Risk Score (Low / Medium / High) from case keywords.
+- ✅ Suggests legal remedies and recommended lawyers.
+- ✅ Supports translation of summary into multiple languages.
+- ✅ Allows users to download a detailed PDF case report.
+- ✅ Includes feedback system and admin dashboard for monitoring usage.
 
 ## **🛠️ Tech Stack**  
 - **Backend:** Flask(Python Web Framework)
